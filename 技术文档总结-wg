@@ -1,0 +1,907 @@
+前端：
+html5
+HTML5 是下一代的 HTML。
+什么是 HTML5？
+HTML5 将成为 HTML、XHTML 以及 HTML DOM 的新标准。
+HTML 的上一个版本诞生于 1999 年。自从那以后，Web 世界已经经历了巨变。
+HTML5 仍处于完善之中。然而，大部分现代浏览器已经具备了某些 HTML5 支持。
+HTML5 是如何起步的？
+HTML5 是 W3C 与 WHATWG 合作的结果。
+编者注：W3C 指 World Wide Web Consortium，万维网联盟。
+编者注：WHATWG 指 Web Hypertext Application Technology Working Group。
+WHATWG 致力于 web 表单和应用程序，而 W3C 专注于 XHTML 2.0。在 2006 年，双方决定进行合作，来创建一个新版本的 HTML。
+为 HTML5 建立的一些规则：
+新特性应该基于 HTML、CSS、DOM 以及 JavaScript。
+减少对外部插件的需求（比如 Flash）
+更优秀的错误处理
+更多取代脚本的标记
+HTML5 应该独立于设备
+开发进程应对公众透明
+新特性
+HTML5 中的一些有趣的新特性：
+用于绘画的 canvas 元素
+用于媒介回放的 video 和 audio 元素
+对本地离线存储的更好的支持
+新的特殊内容元素，比如 article、footer、header、nav、section
+新的表单控件，比如 calendar、date、time、email、url、search
+浏览器支持
+最新版本的 Safari、Chrome、Firefox 以及 Opera 支持某些 HTML5 特性。Internet Explorer 9 将支持某些 HTML5 特性。
+css
+CSS3 完全向后兼容，因此您不必改变现有的设计。浏览器通常支持 CSS2。
+CSS3 模块
+CSS3 被划分为模块。
+其中最重要的 CSS3 模块包括：
+选择器
+框模型
+背景和边框
+文本效果
+2D/3D 转换
+动画
+多列布局
+用户界面
+CSS3 标准
+W3C 仍然在对 CSS3 规范进行开发。
+不过，现代浏览器已经实现了相当多的 CSS3 属性。
+js
+JavaScript 是世界上最流行的编程语言。
+这门语言可用于 HTML 和 web，更可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备。
+JavaScript 是脚本语言
+JavaScript 是一种轻量级的编程语言。
+JavaScript 是可插入 HTML 页面的编程代码。
+JavaScript 插入 HTML 页面后，可由所有的现代浏览器执行。
+JavaScript 很容易学习。
+您将学到什么
+下面是您将在本教程中学到的主要内容。
+JavaScript：写入 HTML 输出
+实例
+document.write("<h1>This is a heading</h1>");
+document.write("<p>This is a paragraph</p>");
+亲自试一试
+提示：您只能在 HTML 输出中使用 document.write。如果您在文档加载后使用该方法，会覆盖整个文档。
+JavaScript：对事件作出反应
+实例
+<button type="button" onclick="alert('Welcome!')">点击这里</button>
+亲自试一试
+alert() 函数在 JavaScript 中并不常用，但它对于代码测试非常方便。
+onclick 事件只是您即将在本教程中学到的众多事件之一。
+JavaScript：改变 HTML 内容
+使用 JavaScript 来处理 HTML 内容是非常强大的功能。
+实例
+x=document.getElementById("demo")  //查找元素
+x.innerHTML="Hello JavaScript";    //改变内容
+亲自试一试
+您会经常看到 document.getElementByID("some id")。这个方法是 HTML DOM 中定义的。
+DOM（文档对象模型）是用以访问 HTML 元素的正式 W3C 标准。
+您将在本教程的多个章节中学到有关 HTML DOM 的知识。
+JavaScript：改变 HTML 图像
+本例会动态地改变 HTML <image> 的来源 (src)：
+The Light bulb
+点击灯泡就可以打开或关闭这盏灯
+亲自试一试
+JavaScript 能够改变任意 HTML 元素的大多数属性，而不仅仅是图片。
+JavaScript：改变 HTML 样式
+改变 HTML 元素的样式，属于改变 HTML 属性的变种。
+实例
+x=document.getElementById("demo")  //找到元素
+x.style.color="#ff0000";           //改变样式
+亲自试一试
+JavaScript：验证输入
+JavaScript 常用于验证用户的输入。
+实例
+if isNaN(x) {alert("Not Numeric")};
+亲自试一试
+您知道吗？
+提示：JavaScript 与 Java 是两种完全不同的语言，无论在概念还是设计上。
+Java（由 Sun 发明）是更复杂的编程语言。
+ECMA-262 是 JavaScript 标准的官方名称。
+JavaScript 由 Brendan Eich 发明。它于 1995 年出现在 Netscape 中（该浏览器已停止更新），并于 1997 年被 ECMA（一个标准协会）采纳。
+JQuery
+jQuery 简介
+
+jQuery 库可以通过一行简单的标记被添加到网页中。
+
+您需要具备的基础知识
+在您开始学习 jQuery 之前，您应该对以下知识有基本的了解：
+HTML
+CSS
+JavaScript
+如果您需要首先学习这些科目，请在我们的 首页 查找这些教程。
+
+什么是 jQuery ？
+jQuery是一个JavaScript函数库。
+jQuery是一个轻量级的"写的少，做的多"的JavaScript库。
+jQuery库包含以下功能：
+HTML 元素选取
+HTML 元素操作
+CSS 操作
+HTML 事件函数
+JavaScript 特效和动画
+HTML DOM 遍历和修改
+AJAX
+Utilities
+提示： 除此之外，Jquery还提供了大量的插件。
+Bootstrap 简介
+什么是 Bootstrap？
+Bootstrap 是一个用于快速开发 Web 应用程序和网站的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的。
+历史
+Bootstrap 是由 Twitter 的 Mark Otto 和 Jacob Thornton 开发的。Bootstrap 是 2011 年八月在 GitHub 上发布的开源产品。
+为什么使用 Bootstrap？
+移动设备优先：自 Bootstrap 3 起，框架包含了贯穿于整个库的移动设备优先的样式。
+浏览器支持：所有的主流浏览器都支持 Bootstrap。
+    
+
+容易上手：只要您具备 HTML 和 CSS 的基础知识，您就可以开始学习 Bootstrap。
+响应式设计：Bootstrap 的响应式 CSS 能够自适应于台式机、平板电脑和手机。更多有关响应式设计的内容详见 Bootstrap 响应式设计。
+
+
+它为开发人员创建接口提供了一个简洁统一的解决方案。
+它包含了功能强大的内置组件，易于定制。
+它还提供了基于 Web 的定制。
+它是开源的。
+Bootstrap 包的内容
+基本结构：Bootstrap 提供了一个带有网格系统、链接样式、背景的基本结构。这将在 Bootstrap 基本结构部分详细讲解。
+CSS：Bootstrap 自带以下特性：全局的 CSS 设置、定义基本的 HTML 元素样式、可扩展的 class，以及一个先进的网格系统。这将在 Bootstrap CSS 部分详细讲解。
+组件：Bootstrap 包含了十几个可重用的组件，用于创建图像、下拉菜单、导航、警告框、弹出框等等。这将在 布局组件 部分详细讲解。
+JavaScript 插件：Bootstrap 包含了十几个自定义的 jQuery 插件。您可以直接包含所有的插件，也可以逐个包含这些插件。这将在 Bootstrap 插件 部分详细讲解。
+
+定制：您可以定制 Bootstrap 的组件、LESS 变量和 jQuery 插件来得到您自己的版本。
+
+
+在线实例
+本站的 Bootstrap 教程包含了上百个实例。
+你可以使用我们的在线编辑器在线编辑代码，并点击运行按钮查看结果。
+Bootstrap 实例
+<div class="container"> <div class="jumbotron"> <h1>我的第一个 Bootstrap 页面</h1> <p>重置窗口大小，查看响应式效果！</p> </div> <div class="row"> <div class="col-sm-4"> <h3>Column 1</h3> <p>学的不仅是技术，更是梦想！</p> <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p> </div> <div class="col-sm-4"> <h3>Column 2</h3> <p>学的不仅是技术，更是梦想！</p> <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p> </div> <div class="col-sm-4"> <h3>Column 3</h3> <p>学的不仅是技术，更是梦想！</p> <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p> </div> </div> </div>
+
+尝试一下 »
+
+
+更多实例
+Bootstrap 实例2
+<div class="table-responsive"> <table class="table table-striped table-bordered"> <thead> <tr> <th>#</th> <th>Name</th> <th>Street</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>Anna Awesome</td> <td>Broome Street</td> </tr> <tr> <td>2</td> <td>Debbie Dallas</td> <td>Houston Street</td> </tr> <tr> <td>3</td> <td>John Doe</td> <td>Madison Street</td> </tr> </tbody> </table> </div>
+Layui 简介
+
+
+获得 Layui
+你可以在官网首页下载到 Layui 的最新版，也可以通过 GitHub 得到Layui的开源包。目前我们只同步维护这两处资源渠道。一般如果你是用于实际项目，我们推荐你直接从官网下载。layui构建后的结构（也就是你获得的包）如下：
+    ├─css //css目录
+    │  └─modules //模块css目录（一般如果模块相对较大，我们会单独提取）
+    │      ├─laydate
+    │      ├─layer
+    │      │  └─default
+    │      └─layim
+    │          └─skin
+    ├─font  //字体图标目录
+    ├─images //图片资源目录（一些表情等）
+    │  └─face
+    └─lay //JS目录
+        ├─dest //经过合并的完整模块
+        └─modules //各模块/组件
+你还可以在GitHub 上 Fork Layui为我们贡献方案
+经典，因返璞归真
+近几年，尤其是今年，常常会听到猿们吐槽“现在想简简单单的写个前端怎么就变得这么难呢？”。的确，前端目前正处于一个超出常理，且疯狂造轮子的黄金时代，标准化的逐步设想与浏览器本身的现状所形成的滞后感，让一些尚未得到官方推广的方案开始引领着前端社区，那仿佛是一场“五代十国”般的颠覆，这期间，你看不到一个所谓的新鲜轮子可以维持超过三年的光环，因为它很快就会被另一个新轮子所替代。你必须保持对技术的高度狂热，透过未来的枷锁去追逐那些层出不穷的，工具！是的，他们只是工具，准确地说是一种标准化最终形成的过度！
+透过那些高逼格工具的本质，最终仍然是 HTML、CSS、JavaScript 三驾马车的真实面貌。与工具不同的是，它们是最终标准的归属者。所以工具在发展，三驾马车本身同样也在高速发展，那既然如此，我们为何不能跟随原生态的稳健脚步，安安静静地撸会码呢？
+Layui定义为“经典模块化”，并非是自吹她自身有多优秀，而是绕开JS社区的喧嚣，以最简单的方式去诠释高效！她的所谓经典，是在于对返璞归真的执念，她以当前浏览器普通认可的方式去组织模块！我们认为，这恰是符合当下国内绝大多数程序员从旧时代过度到未来新标准的最佳指引。
+所以 Layui 本身也并不是完全遵循于AMD时代，准确地说，她试图建立自己的模式，所以你会看到：
+//layui模块的定义
+layui.define([mods], function(exports){
+  
+  //……
+  
+  exports('mod', api);
+});  
+ 
+//layui模块的使用
+layui.use(['mod1', 'mod2'], function(args){
+  var mod = layui.mod1;
+  
+  //……
+  
+});    
+没错，她具备AMD的影子，又并非受限于commonjs的那些条条框框，Layui认为这种轻量的组织方式，比WebPack更符合绝大多数场景。所以她坚持采用经典模块化，也正是能让人避开工具的复杂配置，回归简单，安静高效地撸一会原生态的HTML、CSS、JavaScript。
+但是 Layui 又并非是Requirejs那样的模块加载器，而是一款UI解决方案，她与Bootstrap最大的不同恰恰在于她糅合了自身对经典模块化的理解。
+快速上手
+获得layui后，将其完整地部署到你的项目目录（或静态资源服务器），你只需要引入下述两个文件：
+./layui/css/layui.css
+./layui/layui.js
+没错，不用去管其它任何文件。因为他们（比如各模块）都是在最终使用的时候才会自动加载。这是一个基本的入门页面：
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>开始使用Layui</title>
+  <link rel="stylesheet" href="../layui/css/layui.css">
+</head>
+<body>
+ 
+<!-- 你的HTML代码 -->
+ 
+<script src="../layui/layui.js"></script>
+<script>
+ 
+//一般直接写在一个js文件中
+layui.use(['layer', 'form'], function(){
+  var layer = layui.layer
+  ,form = layui.form();
+  
+  layer.msg('Hello World');
+});
+</script> 
+  
+</body>
+</html>
+规范化的用法（推荐）
+如果你想快速使用Layui的组件，你还是跟平时一样script标签引入你的js文件，然后在你的js文件中使用layui的组件。但我们更推荐你遵循Layui的模块规范，建立一个自己的模块作为入口：
+<script>
+layui.config({
+  base: '/res/js/modules/' //你的模块目录
+}).use('index'); //加载入口
+</script>    
+上述的 index 即为你 /res/js/modules/ 目录下的 index.js，它的内容应该如下：
+<script>
+/**
+  项目JS主入口
+  以依赖Layui的layer和form模块为例
+**/    
+layui.define(['layer', 'form'], function(exports){
+  var layer = layui.layer
+  ,form = layui.form();
+  
+  layer.msg('Hello World');
+  
+  exports('index', {}); //注意，这里是模块输出的核心，模块名必须和use时的模块名一致
+});    
+</script>   
+简单粗暴用法
+如果你觉得Layui的模块化还是有点啰嗦，木有关系的亲。Layui考虑到了像你一样的猿群，我们将layui.js及所有模块单独打包合并成了一个完整的js文件，用的时候直接引入这一个文件即可。当你采用这样的方式，你无需再通过layui.use加载模块，直接使用即可，如：
+<script src="../layui/lay/dest/layui.all.js"></script>  
+<script>
+;!function(){
+  //当使用了 layui.all.js，无需再执行layui.use()方法
+  var from = layui.form()
+  ,layer = layui.layer;
+  
+  //…
+}();
+</script>  
+但你必须知道，这种使用方式，意味着Layui的模块化已经失去了它的意义。但不可否认，它比什么都来的简单。
+好了，不管你采用什么样的方式，从现在开始，尽情地使用Layui吧！但愿这是一段美妙的旅程。
+AJAX 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。
+您应当具备的基础知识
+在继续学习之前，您需要对下面的知识有基本的了解：
+HTML / XHTML
+CSS
+JavaScript / DOM
+如果您希望首先学习这些项目，请在我们的首页访问这些教程。
+什么是 AJAX ？
+AJAX = 异步 JavaScript 和 XML。
+AJAX 是一种用于创建快速动态网页的技术。
+通过在后台与服务器进行少量数据交换，AJAX 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。
+传统的网页（不使用 AJAX）如果需要更新内容，必需重载整个网页面。
+有很多使用 AJAX 的应用程序案例：新浪微博、Google 地图、开心网等等。
+Google Suggest
+在 2005 年，Google 通过其 Google Suggest 使 AJAX 变得流行起来。
+Google Suggest 使用 AJAX 创造出动态性极强的 web 界面：当您在谷歌的搜索框输入关键字时，JavaScript 会把这些字符发送到服务器，然后服务器会返回一个搜索建议的列表。
+今天就开始使用 AJAX
+AJAX 基于已有的标准。这些标准已被大多数开发者使用多年。
+后端：
+Java EE是 J2EE的一个新的名称，之所以改名，目的还是让大家清楚J2EE只是Java企业应用.随着WEB和EJB容器概念诞生，使得软件应用业开始担心SUN的伙伴们是否还在Java平台上不断推出翻新的标准框架，致使软件应用业的业务核心组件架构无所适从，从一直以来是否需要EJB的讨论声中说明了这种彷徨。
+在2004年底中国软件技术大会Ioc微容器(也就是Jdon框架的实现原理)演讲中指出：我们需要一个跨J2SE/WEB/EJB的微容器，保护我们的业务核心组件（中间件），以延续它的生命力，而不是依赖J2SE/J2EE版本.此次J2EE改名为Java EE，实际也反映出业界这种共同心声。
+Java EE的核心是EJB3.0, 其提供了更兼便捷的企业级的应用框架。
+
+tomcat
+ 编辑
+Tomcat是Apache 软件基金会（Apache Software Foundation）的Jakarta 项目中的一个核心项目，由Apache、Sun 和其他一些公司及个人共同开发而成。由于有了Sun 的参与和支持，最新的Servlet 和JSP 规范总是能在Tomcat 中得到体现，Tomcat 5支持最新的Servlet 2.4 和JSP 2.0 规范。因为Tomcat 技术先进、性能稳定，而且免费，因而深受Java 爱好者的喜爱并得到了部分软件开发商的认可，成为目前比较流行的Web 应用服务器。
+Tomcat 服务器是一个免费的开放源代码的Web 应用服务器，属于轻量级应用服务器，在中小型系统和并发访问用户不是很多的场合下被普遍使用，是开发和调试JSP 程序的首选。对于一个初学者来说，可以这样认为，当在一台机器上配置好Apache 服务器，可利用它响应HTML（标准通用标记语言下的一个应用）页面的访问请求。实际上Tomcat是Apache 服务器的扩展，但运行时它是独立运行的，所以当你运行tomcat 时，它实际上作为一个与Apache 独立的进程单独运行的。
+诀窍是，当配置正确时，Apache 为HTML页面服务，而Tomcat 实际上运行JSP 页面和Servlet。另外，Tomcat和IIS等Web服务器一样，具有处理HTML页面的功能，另外它还是一个Servlet和JSP容器，独立的Servlet容器是Tomcat的默认模式。不过，Tomcat处理静态HTML的能力不如Apache服务器。目前Tomcat最新版本为9.0。
+Spring MVC属于SpringFrameWork的后续产品，已经融合在Spring Web Flow里面。Spring 框架提供了构建 Web 应用程序的全功能 MVC 模块。使用 Spring 可插入的 MVC 架构，从而在使用Spring进行WEB开发时，可以选择使用Spring的SpringMVC框架或集成其他MVC开发框架，如Struts1(现在一般不用)，Struts2等。
+spring
+ 
+（由Rod Johnson创建的一个开源框架）
+ 编辑
+Spring是一个开放源代码的设计层面框架，他解决的是业务逻辑层和其他各层的松耦合问题，因此它将面向接口的编程思想贯穿整个系统应用。Spring是于2003 年兴起的一个轻量级的Java 开发框架，由Rod Johnson创建。简单来说，Spring是一个分层的JavaSE/EEfull-stack(一站式) 轻量级开源框架。
+MyBatis
+ 编辑
+MyBatis 本是apache的一个开源项目iBatis, 2010年这个项目由apache software foundation 迁移到了google code，并且改名为MyBatis 。2013年11月迁移到Github。
+iBATIS一词来源于“internet”和“abatis”的组合，是一个基于Java的持久层框架。iBATIS提供的持久层框架包括SQL Maps和Data Access Objects（DAOs）
+Maven
+ 编辑
+Maven项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的软件项目管理工具。
+Maven 除了以程序构建能力为特色之外，还提供高级项目管理工具。由于 Maven 的缺省构建规则有较高的可重用性，所以常常用两三行 Maven 构建脚本就可以构建简单的项目。由于 Maven 的面向项目的方法，许多 Apache Jakarta 项目发文时使用 Maven，而且公司项目采用 Maven 的比例在持续增长。
+Maven这个单词来自于意第绪语（犹太语），意为知识的积累，最初在Jakata Turbine项目中用来简化构建过程。当时有一些项目（有各自Ant build文件），仅有细微的差别，而JAR文件都由CVS来维护。于是希望有一种标准化的方式构建项目，一个清晰的方式定义项目的组成，一个容易的方式发布项目的信息，以及一种简单的方式在多个项目中共享JARs
+
+MQ: apache activemq zookeeper kafka 发布订阅模式
+apache
+ 
+（Web服务器）
+Apache是世界使用排名第一的Web服务器软件。它可以运行在几乎所有广泛使用的计算机平台上，由于其跨平台和安全性被广泛使用，是最流行的Web服务器端软件之一。它快速、可靠并且可通过简单的API扩充，将Perl/Python等解释器编译到服务器中。同时Apache音译为阿帕奇，是北美印第安人的一个部落，叫阿帕奇族，在美国的西南部。也是一个基金会的名称、一种武装直升机等等
+Apache HTTP Server（简称Apache）是Apache软件基金会的一个开放源码的网页服务器，可以在大多数计算机操作系统中运行，由于其多平台和安全性被广泛使用，是最流行的Web服务器端软件之一。它快速、可靠并且可通过简单的API扩展，将Perl/Python等解释器编译到服务器中。[2] 
+Apache HTTP服务器是一个模块化的服务器，源于NCSAhttpd服务器，经过多次修改，成为世界使用排名第一的Web服务器软件。
+它可以运行在几乎所有广泛使用的计算机平台上。
+Apache源于NCSAhttpd服务器，经过多次修改，成为世界上最流行的Web服务器软件之一。Apache取自“a patchy server”的读音，意思是充满补丁的服务器，因为它是自由软件，所以不断有人来为它开发新的功能、新的特性、修改原来的缺陷。Apache的特点是简单、速度快、性能稳定，并可做代理服务器来使用。
+本来它只用于小型或试验Internet网络，后来逐步扩充到各种Unix系统中，尤其对Linux的支持相当完美。Apache有多种产品，可以支持SSL技术，支持多个虚拟主机。Apache是以进程为基础的结构，进程要比线程消耗更多的系统开支，不太适合于多处理器环境，因此，在一个Apache Web站点扩容时，通常是增加服务器或扩充群集节点而不是增加处理器。到目前为止Apache仍然是世界上用的最多的Web服务器，市场占有率达60%左右。世界上很多著名的网站如Amazon、Yahoo!、W3 Consortium、Financial Times等都是Apache的产物，它的成功之处主要在于它的源代码开放、有一支开放的开发队伍、支持跨平台的应用（可以运行在几乎所有的Unix、Windows、Linux系统平台上）以及它的可移植性等方面。
+Apache的诞生极富有戏剧性。当NCSAWWW服务器项目停顿后，那些使用NCSAWWW服务器的人们开始交换他们用于该服务器的补丁程序，他们也很快认识到成立管理这些补丁程序的论坛是必要的。就这样，诞生了Apache Group，后来这个团体在NCSA的基础上创建了Apache。
+ActiveMQ
+ActiveMQ 是Apache出品，最流行的，能力强劲的开源消息总线。ActiveMQ 是一个完全支持JMS1.1和J2EE 1.4规范的 JMS Provider实现，尽管JMS规范出台已经是很久的事情了，但是JMS在当今的J2EE应用中间仍然扮演着特殊的地位。
+⒈ 多种语言和协议编写客户端。语言: Java,C,C++,C#,Ruby,Perl,Python,PHP。应用协议： OpenWire,Stomp REST,WS Notification,XMPP,AMQP
+⒉ 完全支持JMS1.1和J2EE 1.4规范 （持久化，XA消息，事务)
+⒊ 对Spring的支持，ActiveMQ可以很容易内嵌到使用Spring的系统里面去，而且也支持Spring2.0的特性
+⒋ 通过了常见J2EE服务器（如 Geronimo,JBoss 4,GlassFish,WebLogic)的测试，其中通过JCA 1.5 resource adaptors的配置，可以让ActiveMQ可以自动的部署到任何兼容J2EE 1.4 商业服务器上
+⒌ 支持多种传送协议：in-VM,TCP,SSL,NIO,UDP,JGroups,JXTA
+⒍ 支持通过JDBC和journal提供高速的消息持久化
+⒎ 从设计上保证了高性能的集群，客户端-服务器，点对点
+⒏ 支持Ajax
+⒐ 支持与Axis的整合
+⒑ 可以很容易的调用内嵌JMS provider，进行测试
+zookeeper
+ZooKeeper是一个分布式的，开放源码的分布式应用程序协调服务，是Google的Chubby一个开源的实现，是Hadoop和Hbase的重要组件。它是一个为分布式应用提供一致性服务的软件，提供的功能包括：配置维护、域名服务、分布式同步、组服务等。
+ZooKeeper的目标就是封装好复杂易出错的关键服务，将简单易用的接口和性能高效、功能稳定的系统提供给用户。
+ZooKeeper包含一个简单的原语集，[1]  提供Java和C的接口。
+ZooKeeper代码版本中，提供了分布式独享锁、选举、队列的接口，代码在zookeeper-3.4.3\src\recipes。其中分布锁和队列有Java和C两个版本，选举只有Java版本。
+原理
+编辑
+ZooKeeper是以Fast Paxos算法为基础的，Paxos 算法存在活锁的问题，即当有多个proposer交错提交时，有可能互相排斥导致没有一个proposer能提交成功，而Fast Paxos作了一些优化，通过选举产生一个leader (领导者)，只有leader才能提交proposer，具体算法可见Fast Paxos。因此，要想弄懂ZooKeeper首先得对Fast Paxos有所了解。[3] 
+ZooKeeper的基本运转流程：
+1、选举Leader。
+2、同步数据。
+3、选举Leader过程中算法有很多，但要达到的选举标准是一致的。
+4、Leader要具有最高的执行ID，类似root权限。
+5、集群中大多数的机器得到响应并接受选出的Leader。[3] 
+Kafka
+ 
+（科技术语）
+Kafka是一种高吞吐量的分布式发布订阅消息系统，它可以处理消费者规模的网站中的所有动作流数据。 这种动作（网页浏览，搜索和其他用户的行动）是在现代网络上的许多社会功能的一个关键因素。 这些数据通常是由于吞吐量的要求而通过处理日志和日志聚合来解决。 对于像Hadoop的一样的日志数据和离线分析系统，但又要求实时处理的限制，这是一个可行的解决方案。Kafka的目的是通过Hadoop的并行加载机制来统一线上和离线的消息处理，也是为了通过集群来提供实时的消费。
+Kafka[1]  是一种高吞吐量[2]  的分布式发布订阅消息系统，有如下特性：
+
+通过O(1)的磁盘数据结构提供消息的持久化，这种结构对于即使数以TB的消息存储也能够保持长时间的稳定性能。
+
+
+高吞吐量[2]  ：即使是非常普通的硬件Kafka也可以支持每秒数百万[2]  的消息。
+
+
+支持通过Kafka服务器和消费机集群来分区消息。
+
+
+支持Hadoop并行数据加载。[3] 
+
+Kafka社区于2015年10月03日通过邮件列表发布了最新版本0.8.2.2
+观察者模式
+观察者模式（有时又被称为发布（publish ）-订阅（Subscribe）模式、模型-视图（View）模式、源-收听者(Listener)模式或从属者模式）是软件设计模式的一种。在此种模式中，一个目标物件管理所有相依于它的观察者物件，并且在它本身的状态改变时主动发出通知。这通常透过呼叫各观察者所提供的方法来实现。此种模式通常被用来实现事件处理系统。
+基本简介
+编辑
+观察者模式（Observer）完美的将观察者和被观察的对象分离开。举个例子，用户界面可以作为一个观察者，业务数据是被观察者，用户界面观察业务数据的变化，发现数据变化后，就显示在界面上。面向对象设计的一个原则是：系统中的每个类将重点放在某一个功能上，而不是其他方面。一个对象只做一件事情，并且将他做好。观察者模式在模块之间划定了清晰的界限，提高了应用程序的可维护性和重用性。
+观察者设计模式定义了对象间的一种一对多的组合关系，以便一个对象的状态发生变化时，所有依赖于它的对象都得到通知并自动刷新。
+实现方式
+编辑
+观察者模式有很多实现方式，从根本上说，该模式必须包含两个角色：观察者和被观察对象。在刚才的例子中，业务数据是被观察对象，用户界面是观察者。观察者和被观察者之间存在“观察”的逻辑关联，当被观察者发生改变的时候，观察者就会观察到这样的变化，并且做出相应的响应。如果在用户界面、业务数据之间使用这样的观察过程，可以确保界面和数据之间划清界限，假定应用程序的需求发生变化，需要修改界面的表现，只需要重新构建一个用户界面，业务数据不需要发生变化。
+“观察”
+编辑
+实现观察者模式的时候要注意，观察者和被观察对象之间的互动关系不能体现成类之间的直接调用，否则就将使观察者和被观察对象之间紧密的耦合起来，从根本上违反面向对象的设计的原则。无论是观察者“观察”观察对象，还是被观察者将自己的改变“通知”观察者，都不应该直接调用。
+过程
+编辑
+实现观察者模式有很多形式，比较直观的一种是使用一种“注册——通知——撤销注册”的形式。下面的三个图详细的描述了这样一种过程：
+
+观察者
+（Observer）将自己注册到被观察对象（Subject）中，被观察对象将观察者存放在一个容器（Container）里。
+被观察
+被观察对象发生了某种变化（如图中的SomeChange），从容器中得到所有注册过的观察者，将变化通知观察者。
+撤销观察
+观察者告诉被观察者要撤销观察，被观察者从容器中将观察者去除。
+观察者将自己注册到被观察者的容器中时，被观察者不应该过问观察者的具体类型，而是应该使用观察者的接口。这样的优点是：假定程序中还有别的观察者，那么只要这个观察者也是相同的接口实现即可。一个被观察者可以对应多个观察者，当被观察者发生变化的时候，他可以将消息一一通知给所有的观察者。基于接口，而不是具体的实现——这一点为程序提供了更大的灵活性。
+例子
+编辑
+Java代码Demo
+	//观察者，需要用到观察者模式的类需实现此接口
+public interface Observer{
+    void update(Object...objs);
+}
+ 
+//被观察者（一个抽象类，方便扩展）
+public abstract class Observable{
+ 
+    public final ArrayList<Class<?>> obserList = new ArrayList<Class<?>>();
+ 
+    /**AttachObserver（通过实例注册观察者）
+    *<b>Notice:</b>obcan'tbenull,oritwillthrowNullPointerException
+    **/
+    public<T> void registerObserver(T ob){
+        if(ob==null) throw new NullPointerException();
+        this.registerObserver(ob.getClass());
+    }
+ 
+    /**
+    *AttachObserver（通过Class注册观察者）
+    *@paramcls
+    */
+    public void registerObserver(Class<?> cls){
+        if(cls==null) throw new NullPointerException();
+        synchronized(obserList){
+            if(!obserList.contains(cls)){
+                obserList.add(cls);
+            }
+        }
+    }
+ 
+    /**UnattachObserver（注销观察者）
+    *<b>Notice:</b>
+    *<b>ItreverseswithattachObserver()method</b>
+    **/
+    public<T>void unRegisterObserver(Tob){
+        if(ob==null) throw new NullPointerException();
+        this.unRegisterObserver(ob.getClass());
+    }
+ 
+    /**UnattachObserver（注销观察者，有时候在未获取到实例使用）
+    *<b>Notice:</b>
+    *<b>ItreverseswithattachObserver()method</b>
+    **/
+    public void unRegisterObserver(Class<?>cls){
+        if(cls==null) throw new NullPointerException();
+        synchronized(obserList){
+            Iterator<Class<?>>iterator=obserList.iterator();
+            while(iterator.hasNext()){
+                if(iterator.next().getName().equals(cls.getName())){
+                    iterator.remove();
+                    break;
+                }
+            }
+        }
+    }
+ 
+    /**detachallobservers*/
+    public void unRegisterAll(){
+        synchronized(obserList){
+            obserList.clear();
+        }
+    }
+ 
+    /**Ruturnthesizeofobservers*/
+    public int countObservers(){
+        synchronized(obserList){
+            returnobserList.size();
+        }
+    }
+ 
+    /**
+    *notify all observer（通知所有观察者，在子类中实现）
+    *@paramobjs
+    */
+    public abstract void notifyObservers(Object... objs);
+ 
+    /**
+    *notify one certain observer（通知某一个确定的观察者）
+    *@paramcls
+    *@paramobjs
+    */
+    public abstract void notifyObserver(Class<?> cls, Object... objs);
+ 
+    /**
+    *notifyonecertainobserver
+    *@paramcls
+    *@paramobjs
+    */
+    public abstract<T> void notifyObserver(T t, Object... objs);
+}
+ 
+//目标被观察者
+public class ConcreteObservable extends Observable{
+ 
+    private static ConcreteObservableinstance = null;
+    private ConcreteObservable(){};
+    public static synchronized ConcreteObservablegetInstance(){
+        if(instance == null){
+            instance=newConcreteObservable();
+        }
+        returninstance;
+    }
+ 
+    @Override
+    public <T> void notifyObserver(T t, Object... objs){
+        if(t == null) throw new NullPointerException();
+        this.notifyObserver(t.getClass(), objs);
+    }
+ 
+    @Override
+    public void notifyObservers(Object... objs){
+        for(Class<?>cls : obserList){
+            this.notifyObserver(cls, objs);
+        }
+    }
+ 
+ 
+    //通过java反射机制实现调用
+    @Override
+    public void notifyObserver(Class<?>cls, Object...objs){
+        if(cls == null) throw new NullPointerException();
+        Method[] methods = cls.getDeclaredMethods();
+        for(Method method : methods){
+            if(method.getName().equals("update")){
+                try{
+                    method.invoke(cls,objs);
+                    break;
+                }catch(IllegalArgumentException e){
+                    e.printStackTrace();
+                }catch(IllegalAccessException e){
+                    e.printStackTrace();
+                }catch(InvocationTargetException e){
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+}
+ 
+//使用(实现Observer接口）
+public class Text extends Activity implements Observer{
+    publicvoidonCreate(...){
+        ConcreteObservable.getInstance().registerObserver(Text.class);
+        ....
+    }
+ 
+    //实现接口处理
+    publicvoidupdate(Object...objs){
+        //做操作，比如更新数据，更新UI等
+    }
+}
+php代码DEMO
+	<?php
+class car implements SplSubject
+{
+    //车的类型
+    private $carName;
+    //车的状态，0为关闭，1这启动车子
+    private $carState = 0;
+    //初始化车的速度表值
+    private $carSpeed = 0;
+    //各项车的性能观察对象
+    private $Observers;
+    public function __construct($Name)
+    {
+        $this->carName   = $Name;
+        $this->Observers = new SplObjectStorage;
+    }
+    //启动
+    public function start()
+    {
+        $this->carState = 1;
+        $this->notify();
+    }
+    //停车
+    public function stop()
+    {
+        $this->carState = 0;
+        $this->carSpeed = 0;
+        $this->notify();
+    }
+    //加速
+    public function accelerate($Acceleration)
+    {
+        if (0 === $this->carState) {
+            throw new Exception('先踩油门，不然车怎走啊!!!');
+        }
+        if (!is_int($Acceleration) || $Acceleration < 0) {
+            throw new Exception('加速值错了啊');
+        }
+        $this->carSpeed += $Acceleration;
+        $this->notify();
+    }
+    //增加监测对象
+    public function attach(SplObserver $observer)
+    {
+        if (!$this->Observers->contains($observer)) {
+            $this->Observers->attach($observer);
+        }
+        return true;
+    }
+    //删除监测对象
+    public function detach(SplObserver $observer)
+    {
+        if (!$this->Observers->contains($observer)) {
+            return false;
+        }
+        $this->Observers->detach($observer);
+        return true;
+    }
+    //传送对象
+    public function notify()
+    {
+        foreach ($this->Observers as $observer) {
+            $observer->update($this);
+        }
+    }
+    public function __get($Prop)
+    {
+        switch ($Prop) {
+            case 'STATE':
+                return $this->carState;
+                break;
+            case 'SPEED':
+                return $this->carSpeed;
+                break;
+            case 'NAME':
+                return $this->carName;
+                break;
+            default:
+                throw new Exception($Prop . 'cannotberead');
+        }
+    }
+    public function __set($Prop, $Val)
+    {
+        throw new Exception($Prop . 'cannotbeset');
+    }
+}
+ 
+class carStateObserver implements SplObserver
+{
+    private $SubjectState;
+    public function update(SplSubject $subject)
+    {
+        switch ($subject->STATE) {
+            case 0:
+                if (is_null($this->SubjectState)) {
+                    echo $subject->NAME . '没有启动呢' . "\t";
+                } else {
+                    echo $subject->NAME . '熄火了' . "\t";
+                }
+                $this->SubjectState = 0;
+                break;
+            case 1:
+                if (1 !== $this->SubjectState) {
+                    echo $subject->NAME . '启动了' . "\t";
+                    $this->SubjectState = 1;
+                }
+                break;
+            default:
+                throw new Exception('UnexpectederrorincarStateObserver::update()');
+        }
+    }
+}
+ 
+class carSpeedObserver implements SplObserver
+{
+    public function update(SplSubject $subject)
+    {
+        if (0 !== $subject->STATE) {
+            echo $subject->NAME . '目前速度为' . $subject->SPEED . 'Kmh' . "\t";
+        }
+    }
+}
+ 
+class carOverspeedObserver implements SplObserver
+{
+    public function update(SplSubject $subject)
+    {
+        if ($subject->SPEED > 130) {
+            throw new Exception('加速限制在130以内,你违规了!' . "\t");
+        }
+    }
+}
+try {
+    $driver           = newcar('AUDIA4');
+    $driverObserver1  = new carStateObserver;
+    $driverObserver2  = new carSpeedObserver;
+    $drivesrObserver3 = new carOverspeedObserver;
+    $driver->attach($driverObserver1);
+    $driver->attach($driverObserver2);
+    $driver->attach($drivesrObserver3);
+    $driver->start();
+    $driver->accelerate(10);
+    $driver->accelerate(30);
+    $driver->stop();
+    $driver->start();
+    $driver->accelerate(50);
+    $driver->accelerate(70);
+    $driver->accelerate(100);
+    $driver->accelerate(150);
+}
+catch (Exception $e) {
+    echo $e->getMessage();
+}
+?>
+C++ 观察者模式例子
+	//filename observer.h
+#include <iostream>
+#include <set>
+#include <string>
+using namespace std;
+/////////////////////抽象模式定义
+class CObservable;
+//观察者，纯虚基类
+class CObserver
+{
+public:
+    CObserver(){};
+    virtual ~CObserver(){};
+    //当被观察的目标发生变化时，通知调用该方法
+    //来自被观察者pObs, 扩展参数为pArg
+    virtual void Update(CObservable* pObs, void* pArg = NULL) = 0;
+};
+//被观察者，即Subject
+class CObservable
+{
+public:
+    CObservable() : m_bChanged(false) {};
+    virtual ~CObservable() {};
+    void Attach(CObserver* pObs);   //注册观察者
+    void Detach(CObserver* pObs);   //注销观察者
+    void DetachAll();               //注销所有观察者
+    void Notify(void* pArg = NULL); //若状态变化，则遍历观察者，逐个通知更新
+    bool HasChanged();              //测试目标状态是否变化
+    int GetObserversCount();        //获取观察者数量
+protected:
+    void SetChanged();              //设置状态变化!!!必须继承CObservable才能设置目标状态
+    void ClearChanged();            //初始化目标为未变化状态
+private:
+    bool m_bChanged;                //状态
+    set<CObserver*> m_setObs;       //set保证目标唯一性
+};
+/////////////////////抽象模式实现
+void CObservable::Attach(CObserver* pObs){
+    if (!pObs) return;
+    m_setObs.insert(pObs);
+}
+void CObservable::Detach(CObserver* pObs){
+    if (!pObs) return;
+    m_setObs.erase(pObs);
+}
+void CObservable::DetachAll(){
+    m_setObs.clear();
+}
+void CObservable::SetChanged(){
+    m_bChanged = true;
+}
+void CObservable::ClearChanged(){
+    m_bChanged = false;
+}
+bool CObservable::HasChanged(){
+    return m_bChanged;
+}
+int CObservable::GetObserversCount(){
+    return m_setObs.size();
+}
+void CObservable::Notify(void* pArg /* = NULL */){
+    if (!HasChanged()) return;
+    cout << "notify observers…" << endl;
+    ClearChanged();
+    set<CObserver*>::iterator itr = m_setObs.begin();
+    for (; itr != m_setObs.end(); itr++){
+        (*itr)->Update(this, pArg);
+    }
+}
+/////////////////////具体应用类定义和实现
+//bloger是发布者，即被观察者(subject)
+class CBloger : public CObservable
+{
+public:
+    void Publish(const string &strContent){
+        cout << "bloger publish, content: " << strContent << endl;
+        SetChanged();
+        Notify(const_cast<char*>(strContent.c_str()));
+    }
+};
+//portal是发布者，即被观察者(subject)
+class CPortal : public CObservable
+{
+public:
+    void Publish(const string &strContent){
+        cout << "portal publish, content: " << strContent << endl;
+        SetChanged();
+        Notify(const_cast<char*>(strContent.c_str()));
+    }
+};
+//RSS阅读器，观察者
+class CRSSReader : public CObserver
+{
+public:
+    CRSSReader(const string &strName) : m_strName(strName){}
+    virtual void Update(CObservable* pObs, void* pArg = NULL){
+        char* pContent = static_cast<char*>(pArg);
+        //观察多个目标
+        if (dynamic_cast<CBloger*>(pObs)){
+            cout << m_strName << " updated from bloger, content: " << pContent << endl;
+        }else if (dynamic_cast<CPortal*>(pObs)){
+            cout << m_strName << " updated from portal, content: " << pContent << endl;
+        }
+    }
+private:
+    string m_strName;
+};
+//Mail阅读器，观察者
+class CMailReader : public CObserver
+{
+public:
+    CMailReader(const string &strName) : m_strName(strName){}
+    virtual void Update(CObservable* pObs, void* pArg = NULL){
+            char* pContent = static_cast<char*>(pArg);
+            if (dynamic_cast<CBloger*>(pObs)){
+                cout << m_strName << " updated from bloger, content: " << pContent << endl;
+            }
+            if (dynamic_cast<CPortal*>(pObs)){
+                cout << m_strName << " updated from portal, content: " << pContent << endl;
+            }
+        }
+private:
+    string m_strName;
+};
+#include "observer.h"
+int main()
+{
+                                  //目标(被观察者)
+    CBloger* pBloger = new CBloger();
+    CPortal* pPortal = new CPortal();
+                                  //观察者. 一个观察者可以观察多个目标
+    CRSSReader* pRssReader = new CRSSReader("rss reader");
+    CMailReader* pMailReader = new CMailReader("mail reader");
+    pBloger->Attach(pRssReader);  //bloger注册观察者
+    pBloger->Attach(pMailReader); //bloger注册观察者
+    pPortal->Attach(pRssReader);  //portal注册观察者
+    pPortal->Attach(pMailReader); //portal注册观察者
+                                  //博客发布信息
+    pBloger->Publish("博客分享设计模式");
+    cout << endl;
+                                  //门户发布信息
+    pPortal->Publish("门户分享设计模式");
+    cout << "\nportal detached mail reader" << endl;
+     
+    pPortal->Detach(pMailReader);
+     
+    cout << "portal observers count: " << pPortal->GetObserversCount() << endl << endl;
+    pPortal->Publish("门户分享设计模式");
+     
+    system("pause");
+    return 0;
+
+Core: C/C++ docker
+C/C++
+C语言是在70年代初问世的。一九七八年由美国电话电报公司(AT&T)贝尔实验室正式发表了C语言。同时由B.W.Kernighan和D.M.Ritchit合著了著名的“THE C PROGRAMMING LANGUAGE”一书。通常简称为《K&R》，也有人称之为《K&R》标准。但是，在《K&R》中并没有定义一个完整的标准C语言，后来由美国国家标准学会在此基础上制定了一个C 语言标准，于一九八三年发表。通常称之为ANSI C。
+面向对象的程序设计语言
+编辑
+C++简介
+在C的基础上，一九八三年又由贝尔实验室的Bjarne Strou-strup推出了C++。 C++进一步扩充和完善了C语言，成为一种面向 对象的程序设计语言。C++目前流行的集成开发环境最新版本是Borland C++4.5,Symantec C++6.1,和Microsoft VisualC++ 2012。C++提出了一些更为深入的概念，它所支持的这些面向对象的概念容易将问题空间直接地映射到程序空间，为程序员提供了一种与传统结构程序设计不同的思维方式和编程方法。因而也增加了整个语言的复杂性，掌握起来有一定难度。[2] 
+C和C++关系
+但是，C是C++的基础，C++语言和C语言在很多方面是兼容的。因此，掌握了C语言，再进一步学习C++就能以一种熟悉的语法来学习面向对象的语言，从而达到事半功倍的目的。
+C timeline
+1978 k&R C---->1988 ANSI C-->1995 ISO C
+学习C语言最经典的还是The C Programming Language，
+Docker
+Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。
+Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的Linux机器上，也可以实现虚拟化，容器是完全使用沙箱机制，相互之间不会有任何接口。
+一个完整的Docker有以下几个部分组成：
+.
+dockerClient客户端
+.
+.
+Docker Daemon守护进程
+.
+.
+Docker Image镜像
+.
+.
+DockerContainer容器[2] 
+.
+mySQL
+ 
+（关系型数据库管理系统）
+MySQL是一个关系型数据库管理系统，由瑞典MySQL AB 公司开发，目前属于 Oracle 旗下产品。MySQL 是最流行的关系型数据库管理系统之一，在 WEB 应用方面，MySQL是最好的 RDBMS (Relational Database Management System，关系数据库管理系统) 应用软件。
+MySQL是一种关系数据库管理系统，关系数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。
+MySQL所使用的 SQL 语言是用于访问数据库的最常用标准化语言。MySQL 软件采用了双授权政策，分为社区版和商业版，由于其体积小、速度快、总体拥有成本低，尤其是开放源码这一特点，一般中小型网站的开发都选择 MySQL 作为网站数据库。
+由于其社区版的性能卓越，搭配 PHP 和 Apache 可组成良好的开发环境。
+Redis
+Redis是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。从2010年3月15日起，Redis的开发工作由VMware主持。从2013年5月开始，Redis的开发由Pivotal赞助。
+redis是一个key-value存储系统。和Memcached类似，它支持存储的value类型相对更多，包括string(字符串)、list(链表)、set(集合)、zset(sorted set --有序集合)和hash（哈希类型）。这些数据类型都支持push/pop、add/remove及取交集并集和差集及更丰富的操作，而且这些操作都是原子性的。在此基础上，redis支持各种不同方式的排序。与memcached一样，为了保证效率，数据都是缓存在内存中。区别的是redis会周期性的把更新的数据写入磁盘或者把修改操作写入追加的记录文件，并且在此基础上实现了master-slave(主从)同步。
+Redis 是一个高性能的key-value数据库。 redis的出现，很大程度补偿了memcached这类key/value存储的不足，在部 分场合可以对关系数据库起到很好的补充作用。它提供了Java，C/C++，C#，PHP，JavaScript，Perl，Object-C，Python，Ruby，Erlang等客户端，使用很方便。[1] 
+Redis支持主从同步。数据可以从主服务器向任意数量的从服务器上同步，从服务器可以是关联其他从服务器的主服务器。这使得Redis可执行单层树复制。存盘可以有意无意的对数据进行写操作。由于完全实现了发布/订阅机制，使得从数据库在任何地方同步树时，可订阅一个频道并接收主服务器完整的消息发布记录。同步对读取操作的可扩展性和数据冗余很有帮助。
+redis的官网地址，非常好记，是redis.io。（特意查了一下，域名后缀io属于国家域名，是british Indian Ocean territory，即英属印度洋领地）
+目前，Vmware在资助着redis项目的开发和维护。
+
+
+
+
+
+
+
+
+
+
+
